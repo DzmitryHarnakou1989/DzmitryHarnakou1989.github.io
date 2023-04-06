@@ -4,6 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      iframe#fisher-widget {
+        width: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="fisher-widget"></iframe>
     <script src="https://fisher-v2-predev.pricehubble.net/constructor/widget.js"></script>
     <script type="text/javascript">
       FisherWidget.init({
@@ -15,14 +24,5 @@
         host: "https://fisher-v2-predev.pricehubble.net",
       });
     </script>
-    <style>
-      iframe#fisher-widget {
-        width: 100%;
-        border: none;
-      }
-    </style>
-  </head>
-  <body>
-    <iframe id="fisher-widget"></iframe>
   </body>
 </html>
