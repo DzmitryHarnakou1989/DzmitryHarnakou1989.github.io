@@ -12,18 +12,25 @@
     </style>
   </head>
   <body>
-    <iframe id="fisher-widget"></iframe>
-    <script src="https://fisher-v2-predev.pricehubble.net/constructor/widget.js"></script>
-    <script type="text/javascript">
-      FisherWidget.init({
-        apiKey: "7d7fd8333384427ba17ecf6e45891bae",
-        iframe: "#fisher-widget",
-        primaryColor: "64,147,226",
-        gaTrackingId: "G-PRZTEQFJHH",
-        consentGranted: true,
-        host: "https://fisher-v2-predev.pricehubble.net",
-        gtmId: "GTM-5X4W5Q2",
-      });
-    </script>
+<iframe id="fisher-widget"></iframe>
+
+<script src="https://fisher.pricehubble.com/widget.js"></script>
+<script type="text/javascript">
+  FisherWidget.init({
+    apiKey: '7d7fd8333384427ba17ecf6e45891bae',
+    iframe: '#fisher-widget',
+    activeColor: '5299c8',
+    buttonColor: 'c53925',
+    textColor: '212529',
+    gaTrackingId: 'UA-233773475-1',
+    consentGranted: true,
+  });
+</script>
+
+<style>
+  iframe#fisher-widget {
+    width: 100%;
+  }
+</style>
   </body>
 </html>
